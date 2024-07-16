@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Header */
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
+/* Header Logo */
+.logo img {
+  height: 20vmin;
+  width: auto;
+  pointer-events: none;
+}
+/* Header Title */
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+}
+
+/* Navigation Bar */
+.NavBar {
+    position: sticky;
+    top: 0;
+    background-color: #263f4c;
+    overflow: hidden;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+/*Navigation Bar Links*/
+.NavBar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+/*Navigation Bar Links Hover*/
+.NavBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*Highlight Navigation Bar Links*/
+.NavBar .highlight {
+    background-color: #f2f2f2;
+    color: black;
+}
+
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
