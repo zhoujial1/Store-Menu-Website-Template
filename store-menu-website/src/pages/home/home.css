@@ -1,0 +1,58 @@
+/*Section 1 About*/
+.Section1 {
+    background-color: #999999;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 20px;
+}
+/*Set the image and text in the center of the page*/
+.About {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/*Set image to auto adjust to the screen size*/
+.About img {
+    height: 40vmin;
+    width: auto;
+    pointer-events: none;
+}
+/*Set the text to auto adjust to the screen size*/
+.About p {
+    font-size: calc(1vw + 1vh + 0.5vmin);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    max-width: 60%;
+    padding: 10vh;
+}
+
+.Section2 {
+    background-color: #5f5f5f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 20px;
+}
+
+.Section3 {
+    background-color: #494949;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 20px;
+}
+
