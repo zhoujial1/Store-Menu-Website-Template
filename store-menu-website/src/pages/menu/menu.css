@@ -41,12 +41,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 /* Make images scalable */
 .Grid img {
     width: 100%;
     height: auto;
-    max-width: 300px; /* Optional: limit the maximum width */
-    border-radius: 10px; /* Optional: match the border radius of the container */
+    max-width: 300px;
+    border-radius: 10px;
 }
